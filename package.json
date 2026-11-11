@@ -1,0 +1,19 @@
+{
+  "name": "aviv-pms-react",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "scripts": {
+    "convert": "python3 scripts/convert_legacy.py",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
+}
